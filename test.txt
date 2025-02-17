@@ -1,0 +1,22 @@
+   rm -rf venv/
+
+   python -m venv venv
+
+
+source venv/bin/activate
+
+conda deactivate
+
+pip install -r requirements.txt
+
+uvicorn app.main:app --reload
+
+uvicorn app.main:app --reload
+
+   pip install --upgrade langchain-openai
+
+   python seed_script.py 
+
+      pip install psycopg2-binary
+
+         python -m app.seed.seed_script

@@ -1,0 +1,41 @@
+# fastapi==0.109.1
+# uvicorn==0.27.0
+# sqlalchemy==2.0.25
+# pydantic==2.6.1
+# pydantic-settings==2.1.0
+# python-jose==3.3.0
+# passlib==1.7.4
+# python-multipart==0.0.6
+# openai==1.12.0  # Updated to latest version
+# python-dotenv==1.0.0
+# googlemaps==4.10.0
+# geopy==2.4.1
+# bcrypt==4.1.2
+# alembic==1.13.1
+# psycopg2-binary==2.9.9
+# websockets==10.4  # Added for WebSocket support
+# langchain-openai>=0.0.5
+# langchain-core>=0.1.0
+# Faker==13.3.4
+
+# Requirements for the Appointment Scheduling Application
+
+# LangChain and OpenAI integration
+langchain
+langchain-openai
+langchain-core
+
+# FastAPI for building the web application
+fastapi
+
+# Uvicorn as the ASGI server for FastAPI
+uvicorn
+
+# WebSockets for real-time communication
+websockets
+
+# Additional libraries you might need
+pydantic  # For data validation and settings management
+sqlalchemy  # For database interactions
+python-dotenv  # For loading environment variables from a .env file
+Faker
